@@ -1,9 +1,16 @@
 from gpiozero import LED
 import time
-puertosalida = 17
-lr = LED(puertosalida)
+lr = LED(17)
+lg = LED(18)
+lb = LED(19)
 
-def prender(color)
+
+hola ={
+    "r":lr,
+    "g":lg,
+    "b":lb
+}
+hola["b"].on
 
 
 parpadeando = True
